@@ -51,7 +51,7 @@ export default function Experience() {
 										{exp.title}
 									</h3>
 									<p className="text-xl lg:text-2xl">{exp.company}</p>
-									<p className="mt-2 text-lg lg:text-xl">{exp.details}</p>
+									<p className="mt-2 text-md lg:text-xl">{exp.details}</p>
 								</div>
 							</div>
 						</div>

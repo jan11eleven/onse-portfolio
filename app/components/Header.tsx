@@ -9,13 +9,22 @@ export default function Header() {
 
 	return (
 		<div className="flex justify-between items-center jost-font">
-			<div>
+			<div className="block md:hidden">
 				<Image
-					src="/logo.png" // Local image path or URL
+					src="/logo.png"
 					alt="Description of image"
-					width={35} // Set desired width
-					height={55} // Set desired height
-					priority // Optional: loads the image with high priority (recommended for above-the-fold images)
+					width={25}
+					height={45}
+					priority
+				/>
+			</div>
+			<div className="hidden md:block">
+				<Image
+					src="/logo.png"
+					alt="Description of image"
+					width={35}
+					height={55}
+					priority
 				/>
 			</div>
 			<div className="w-60 flex justify-around sm:justify-between items-center text-md sm:text-xl font-medium">
