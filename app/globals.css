@@ -3,25 +3,93 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+	--background: #ffffff;
+	--foreground: #171717;
+	--primarycolor: #6b8eff;
+	--about-background: #31333b;
+	--about-foreground: #f3f4f6;
+	--skill-background: #3d3e42;
+	--skill-foreground: #ffffff;
+	--exp-background: #3d3e42;
+	--exp-foreground: #ffffff;
+	/* 82848b */
+}
+
+.dark :root {
+	--background: #34353a;
+	--foreground: #ededed;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+	:root {
+		--background: #0a0a0a;
+		--foreground: #ededed;
+	}
+}
+
+/* fonts */
+.jost-font {
+	font-family: var(--font-jost);
+}
+
+.figtree-font {
+	font-family: var(--font-figtree);
+}
+
+.alegreya-font {
+	font-family: var(--font-alegreya);
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+	color: var(--foreground);
+	background: var(--background);
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+	.text-balance {
+		text-wrap: balance;
+	}
+}
+
+.theme-switch {
+	cursor: crosshair;
+}
+
+.nav-link {
+	color: #6b7280; /* Inactive color */
+	transition: color 0.3s;
+}
+
+.nav-link:hover {
+	color: #0b0d11; /* Color on hover */
+}
+
+.nav-link:active {
+	color: #0b0d11; /* Color when active */
+}
+
+.dark-nav-link {
+	color: #6b7280; /* Inactive color */
+	transition: color 0.3s;
+}
+
+.dark-nav-link:hover {
+	color: #ededed; /* Color on hover */
+}
+
+.dark-nav-link:active {
+	color: #ededed; /* Color when active */
+}
+
+.vertical-line {
+	width: 5px; /* Set width to make it thin */
+	height: 150px; /* Adjust height as needed */
+	background-color: var(--primarycolor); /* Set color of the line */
+}
+
+.horizontal-line {
+	width: 300px; /* Set width to make it thin */
+	height: 3px; /* Adjust height as needed */
+	background-color: var(--primarycolor); /* Set color of the line */
 }
