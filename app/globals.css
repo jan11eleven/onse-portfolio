@@ -89,8 +89,8 @@ body {
 	background-color: var(--primarycolor); /* Set color of the line */
 }
 
-/* @media (max-width: 1024px) {
+@media (max-width: 1024px) {
 	.image-1 {
 		justify-self: center;
 	}
-} */
+}
