@@ -88,3 +88,9 @@ body {
 	height: 3px; /* Adjust height as needed */
 	background-color: var(--primarycolor); /* Set color of the line */
 }
+
+/* @media (max-width: 1024px) {
+	.image-1 {
+		justify-self: center;
+	}
+} */
