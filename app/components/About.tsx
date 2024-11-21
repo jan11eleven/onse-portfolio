@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function About() {
 	const skillItemStyle =
-		"bg-skillBackground dark:bg-skillForeground rounded-xl flex-col items-center place-content-center place-items-center min-w-[250px] min-h-[250px] ";
+		"bg-skillBackground dark:bg-skillForeground rounded-xl flex-col items-center place-content-center min-w-[250px] min-h-[250px] ";
 
 	return (
 		<div className="scroll-smooth">
@@ -42,7 +42,7 @@ export default function About() {
 				<div className="mt-10 sm:mt-16 lg:mt-20 figtree-font text-lg sm:text-xl font-semibold flex flex-col items-center">
 					<div className="flex flex-wrap justify-center gap-6 lg:gap-10 mb-10">
 						<div className={`${skillItemStyle}`}>
-							<div className="flex gap-2">
+							<div className="flex gap-2 m-auto w-3/6">
 								<Image
 									src="/HTML5.png"
 									alt="HTML5 Logo"
@@ -51,77 +51,125 @@ export default function About() {
 								/>
 								<Image src="/CSS3.png" alt="CSS3 Logo" width={60} height={60} />
 							</div>
-							<p className="mt-4 sm:mt-6">HTML & CSS</p>
+							<p className="mt-4 sm:mt-6 m-auto w-3/6 text-center">
+								HTML & CSS
+							</p>
 						</div>
 						<div className={`${skillItemStyle}`}>
-							<Image
-								src="/JavaScript.png"
-								alt="JavaScript Logo"
-								width={80}
-								height={80}
-							/>
-							<p className="mt-4 sm:mt-6">JavaScript</p>
+							<div className="m-auto w-3/6">
+								<Image
+									src="/JavaScript.png"
+									alt="JavaScript Logo"
+									width={80}
+									height={80}
+									className="m-auto"
+								/>
+							</div>
+							<p className="mt-4 sm:mt-6 m-auto w-3/6 text-center">
+								JavaScript
+							</p>
 						</div>
 						<div className={`${skillItemStyle}`}>
-							<Image
-								src="/Next.js.png"
-								alt="Next.js Logo"
-								width={80}
-								height={80}
-							/>
-							<p className="mt-4 sm:mt-6">NextJS</p>
+							<div className="m-auto w-3/6">
+								<Image
+									src="/Next.js.png"
+									alt="Next.js Logo"
+									width={80}
+									height={80}
+									className="m-auto"
+								/>
+							</div>
+							<p className="mt-4 sm:mt-6 m-auto w-3/6 text-center">NextJS</p>
 						</div>
 						<div className={`${skillItemStyle}`}>
-							<Image
-								src="/Node.js.png"
-								alt="Node.js Logo"
-								width={80}
-								height={80}
-							/>
-							<p className="mt-4 sm:mt-6">NodeJS</p>
-						</div>
-					</div>
-					<div className="flex flex-wrap justify-center gap-6 lg:gap-10 mb-10">
-						<div className={`${skillItemStyle}`}>
-							<Image src="/Java.png" alt="Java Logo" width={80} height={80} />
-							<p className="mt-4 sm:mt-6">Java</p>
-						</div>
-						<div className={`${skillItemStyle}`}>
-							<Image
-								src="/Spring.png"
-								alt="Spring Logo"
-								width={80}
-								height={80}
-							/>
-							<p className="mt-4 sm:mt-6">Spring</p>
-						</div>
-						<div className={`${skillItemStyle}`}>
-							<Image src="/MySQL.png" alt="MySQL Logo" width={80} height={80} />
-							<p className="mt-4 sm:mt-6">MySQL</p>
-						</div>
-						<div className={`${skillItemStyle}`}>
-							<Image
-								src="/PostgresSQL.png"
-								alt="PostgresSQL Logo"
-								width={80}
-								height={80}
-							/>
-							<p className="mt-4 sm:mt-6">PostgresSQL</p>
+							<div className="m-auto w-3/6">
+								<Image
+									src="/Node.js.png"
+									alt="Node.js Logo"
+									width={80}
+									height={80}
+									className="m-auto"
+								/>
+							</div>
+							<p className="mt-4 sm:mt-6 m-auto w-3/6 text-center">NodeJS</p>
 						</div>
 					</div>
 					<div className="flex flex-wrap justify-center gap-6 lg:gap-10 mb-10">
 						<div className={`${skillItemStyle}`}>
-							<Image src="/Figma.png" alt="Figma Logo" width={80} height={80} />
-							<p className="mt-4 sm:mt-6">Figma</p>
+							<div className="m-auto w-3/6">
+								<Image
+									src="/Java.png"
+									alt="Java Logo"
+									width={80}
+									height={80}
+									className="m-auto"
+								/>
+							</div>
+							<p className="mt-4 sm:mt-6 m-auto w-3/6 text-center">Java</p>
 						</div>
 						<div className={`${skillItemStyle}`}>
-							<Image
-								src="/Appian.png"
-								alt="Appian Logo"
-								width={80}
-								height={80}
-							/>
-							<p className="mt-4 sm:mt-6">Appian</p>
+							<div className="m-auto w-3/6">
+								<Image
+									src="/Spring.png"
+									alt="Spring Logo"
+									width={80}
+									height={80}
+									className="m-auto"
+								/>
+							</div>
+							<p className="mt-4 sm:mt-6 m-auto w-3/6 text-center">Spring</p>
+						</div>
+						<div className={`${skillItemStyle}`}>
+							<div className="m-auto w-3/6">
+								<Image
+									src="/MySQL.png"
+									alt="MySQL Logo"
+									width={80}
+									height={80}
+									className="m-auto"
+								/>
+							</div>
+							<p className="mt-4 sm:mt-6 m-auto w-3/6 text-center">MySQL</p>
+						</div>
+						<div className={`${skillItemStyle}`}>
+							<div className="m-auto w-3/6">
+								<Image
+									src="/PostgresSQL.png"
+									alt="PostgresSQL Logo"
+									width={80}
+									height={80}
+									className="m-auto"
+								/>
+							</div>
+							<p className="mt-4 sm:mt-6 m-auto w-3/6 text-center">
+								PostgresSQL
+							</p>
+						</div>
+					</div>
+					<div className="flex flex-wrap justify-center gap-6 lg:gap-10 mb-10">
+						<div className={`${skillItemStyle}`}>
+							<div className="m-auto w-3/6">
+								<Image
+									src="/Figma.png"
+									alt="Figma Logo"
+									width={80}
+									height={80}
+									className="m-auto"
+								/>
+							</div>
+							<p className="mt-4 sm:mt-6 m-auto w-3/6 text-center">Figma</p>
+						</div>
+						<div className={`${skillItemStyle}`}>
+							<div className="m-auto w-3/6">
+								<Image
+									src="/Appian.png"
+									alt="Appian Logo"
+									width={80}
+									height={80}
+									className="m-auto"
+								/>
+							</div>
+							<p className="mt-4 sm:mt-6 m-auto w-3/6 text-center">Appian</p>
 						</div>
 					</div>
 				</div>
