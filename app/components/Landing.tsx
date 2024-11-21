@@ -22,7 +22,7 @@ export default function Landing() {
 					width={450}
 					height={450}
 					priority
-					className="w-2/4 lg:w-4/4 m-auto mb-14 lg:ml-20 lg:hidden"
+					className="w-2/4 lg:w-4/4 m-auto mb-24 lg:ml-20 lg:hidden"
 				/>
 				<a
 					className="text-md lg:text-3xl border-4 rounded-md lg:rounded-xl p-4 lg:p-6 border-primary text-primary hover:bg-primary hover:text-background dark:hover:text-background animate-pulse-glow"
@@ -40,15 +40,15 @@ export default function Landing() {
 					priority
 				/>
 			</div>
-			<div className="flex-col justify-items-center justify-self-end md:self-end pb-6">
-				<div className="vertical-line mb-8 animate-pulse-glow"></div>
+			<div className="flex-col justify-items-center md:self-end pb-6 hidden lg:block">
+				<div className="vertical-line mb-8 animate-pulse-glow "></div>
 				<a
 					href="https://www.facebook.com/janeleven.salvador/"
 					target="_blank"
 					rel="noopener noreferrer"
 					aria-label="Facebook"
 				>
-					<FaFacebook className="mb-4 sm:mb-8 hover:text-blue-500" />
+					<FaFacebook className="mb-4 sm:mb-8 hover:text-blue-500 ml-auto" />
 				</a>
 				<a
 					href="https://www.linkedin.com/in/jan-eleven-salvador/"
