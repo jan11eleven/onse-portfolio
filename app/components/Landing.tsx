@@ -14,7 +14,7 @@ export default function Landing() {
 					</span>
 				</p>
 				<p className="figtree-font mb-8 lg:mb-14 select-none">
-					a Java & Appian Developer
+					a Backend Software Developer
 				</p>
 				<Image
 					src="/profile.png"
