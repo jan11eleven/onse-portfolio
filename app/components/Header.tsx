@@ -13,8 +13,8 @@ export default function Header() {
 				<Image
 					src="/logo.png"
 					alt="Description of image"
-					width={25}
-					height={45}
+					width={85}
+					height={105}
 					priority
 				/>
 			</div>
@@ -22,8 +22,8 @@ export default function Header() {
 				<Image
 					src="/logo.png"
 					alt="Description of image"
-					width={35}
-					height={55}
+					width={85}
+					height={105}
 					priority
 				/>
 			</div>

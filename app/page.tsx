@@ -10,7 +10,7 @@ import Portfolio from "./components/Portfolio";
 export default function Home() {
 	return (
 		<div className="bg-aboutBackground dark:bg-aboutForeground">
-			<div className="px-4 md:px-12 lg:px-20 mt-10 bg-foreground dark:bg-background">
+			<div className="px-4 md:px-12 lg:px-20 bg-foreground dark:bg-background">
 				<Header />
 			</div>
 			<div className="px-4 md:px-12 lg:px-20 bg-foreground dark:bg-background">
