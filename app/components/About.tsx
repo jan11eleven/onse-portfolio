@@ -17,21 +17,22 @@ export default function About() {
 			<div className="flex justify-center">
 				<div className="horizontal-line mt-3 lg:mt-4 mr-6 animate-pulse-glow"></div>
 				<p className="figtree-font text-lg md:text-2xl">
-					I am a highly motivated and adaptable software engineer with
-					experience in full-stack development, specializing in{" "}
+					I am a motivated and adaptable software engineer with experience in
+					full-stack development, specializing in{" "}
 					<span className="text-primary">
 						Java, Spring Boot, Appian, and modern web technologies.
 					</span>{" "}
 					I have a strong background in the FinTech and software consulting
-					industries, where I developed and maintained core banking solutions,
-					APIs, and user interfaces. In addition to my professional experience,
-					I am self-taught in modern programming frameworks, including{" "}
+					industries, where I have developed and maintained core banking
+					systems, backend services, APIs, and user interfaces. Beyond my
+					professional experience, I am self-taught in modern technologies,
+					including{" "}
 					<span className="text-primary">
-						Next.js, React, NodeJS, and PostgreSQL.
+						Next.js, React, Node.js, and PostgreSQL.
 					</span>{" "}
-					With over two years of hands-on experience, I have honed my skills in
-					building scalable applications, debugging, optimizing performance, and
-					collaborating effectively with cross-functional teams.
+					I enjoy building scalable applications, solving complex problems,
+					optimizing performance, and collaborating with cross-functional teams
+					to deliver reliable software solutions.
 				</p>
 			</div>
 

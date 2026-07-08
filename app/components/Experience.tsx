@@ -7,14 +7,14 @@ export default function Experience() {
 			title: "Software Engineer",
 			company: "UBx",
 			details:
-				"As an Appian Developer at UnionBank, I contributed to the CCMD and COCREE projects, enhancing user experience by demonstrating application features to business operators. I collaborated with cross-functional teams to integrate APIs and manage data, significantly reducing errors and streamlining operations. Additionally, I developed a Task Logging App to improve daily task tracking for the team and played a key role in UnionBank’s data migration from Citi.",
+				"As a Software Engineer, I develop and maintain enterprise banking applications, focusing on backend functionality, database operations, and system integrations. I collaborate with cross-functional teams and Product Owners to deliver new features, resolve production issues, and improve existing applications. I also support UAT, production deployments, and data migration projects, ensuring reliable and scalable solutions for banking systems.",
 		},
 		{
 			year: "2021 – 2022",
 			title: "Junior Software Engineer",
 			company: "Pearl Pay Inc.",
 			details:
-				"As a Full-Stack Developer, I worked on developing features for a Core Banking Solution using Java and Spring Boot for the backend, AngularJS for the frontend, MySQL for the database, and AWS for deployment. I implemented features such as loan interest calculations, term deposit computations, user authorization management, and journal entry creation. I deployed these features across Development, Test, UAT, and Production environments, ensuring seamless integration. Additionally, I supported User Acceptance Testing (UAT) to enhance the client experience.",
+				"As a Junior Software Engineer, I contributed to the development of a core banking system using Java, Spring Boot, AngularJS, and MySQL. I implemented backend services and business logic for financial features such as loans, term deposits, and journal entries while also building frontend interfaces. I deployed applications across multiple environments, utilized AWS services, and worked with CI/CD pipelines to support efficient software delivery",
 		},
 	];
 
